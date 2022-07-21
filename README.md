@@ -8,7 +8,7 @@
 ```
 
 + Chrome 버전에 맞는 Chromedriver가 필요합니다.   
-<a href="chrome://settings/help">Chrome 버전 확인</a>    
+<a href="chrome://settings/help">Chrome 버전 확인</a>: chrome://settings/help       
 <a href="https://chromedriver.chromium.org/downloads">Chromedriver 설치</a>       
 
 ### 코드 사용
