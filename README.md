@@ -23,7 +23,8 @@ browser.find_element_by_id("login-user-password").send_keys("비밀번호 입력
 browser.find_element_by_id("login-btn").click()
 ```
 
-+ 날짜 단위 선택
++ 날짜 단위 선택   
+두 달 단위, 한 달 단위를 이용할 경우 2월은 윤년 확인이 필요합니다.
 ```python
 # 분기 단위
 date_list = {'1분기': ['01-01', '03-31'], '2분기': ['04-01', '06-30'], '3분기': ['07-01', '09-30'], '4분기': ['10-01', '12-31']}
