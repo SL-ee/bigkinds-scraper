@@ -2,6 +2,7 @@
 빅카인즈(https://www.bigkinds.or.kr/)를 긁는 Python 코드입니다.
 
 <br/>
+
 ### 준비
 + selenium을 설치해야 사용할 수 있습니다.
 ```python
@@ -13,6 +14,7 @@
 <a href="https://chromedriver.chromium.org/downloads">Chromedriver 설치</a>       
 
 <br/>
+
 ### 코드 사용
 전체 코드는 bigkinds.py를 확인해주세요.    
 
