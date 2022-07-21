@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import time
 
 # selenium
-browser = webdriver.Chrome("D:/SLee/pythonProject/chromedriver")
+browser = webdriver.Chrome("./chromedriver")
 
 browser.set_window_size(1800,1000)
 url = "https://www.bigkinds.or.kr/"
@@ -26,8 +26,7 @@ browser.find_element_by_xpath("//*[@id='header']/div[2]/div[2]/div[1]/div/div[2]
 # 1 경향신문 2 국민일보 3 내일신문 4 동아일보 5 문화일보 6 서울신문 7 세계일보 8 조선일보 9 중앙일보 10 한겨레 11 한국일보
 browser.find_element_by_xpath("//*[@id='category_provider_list']/li[7]/span/label").click()
 
-# year_list = ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']
-year_list = ['2020']
+year_list = ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021']
 # 분기 단위
 date_list = {'1분기': ['01-01', '03-31'], '2분기': ['04-01', '06-30'], '3분기': ['07-01', '09-30'], '4분기': ['10-01', '12-31']}
 # 두 달 단위
@@ -73,7 +72,7 @@ for year in year_list:
             alert = browser.switch_to_alert()
             alert.accept()
         except:
-            print("no alert")
+            print("not over 20000")
         time.sleep(30)
 
         element = WebDriverWait(browser, 30).until(EC.element_to_be_clickable((By.ID, "collapse-step-1")))
