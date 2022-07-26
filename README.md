@@ -1,5 +1,5 @@
 # bigkinds-scraper
-빅카인즈(https://www.bigkinds.or.kr/)의 기사 데이터를 가져오는 Python 코드입니다.
+<a href="https://www.bigkinds.or.kr/">빅카인즈</a>의 기사 데이터를 가져오는 Python 코드입니다.
 
 <br/>
 
